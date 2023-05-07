@@ -1,4 +1,4 @@
-(function($) {
+$(document).ready(function(){
     "use strict";
 
     /*****************************
@@ -462,4 +462,4 @@
     $('body').materialScrollTop();
 
 
-})(jQuery);
+});
