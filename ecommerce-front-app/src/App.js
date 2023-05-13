@@ -37,16 +37,16 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/404" element={<Error404 />} />
-        <Route path="/Aboutus" element={<Aboutus />} />
+        <Route path="/about-us" element={<Aboutus />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/empty-cart" element={<Emptycart />} />
-        <Route path="/Checkout" element={<Checkout />} />
-        <Route path="/Compare" element={<Compare />} />
-        <Route path="/Contactus" element={<Contactus />} />
-        <Route path="/Faq" element={<Faq />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/compare" element={<Compare />} />
+        <Route path="/contact-us" element={<Contactus />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/my-account" element={<Myaccount />} />
-        <Route path="/Privacy-policy" element={<Privacypolicy />} />
+        <Route path="/privacy-policy" element={<Privacypolicy />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/product-details-Affiliate" element={<ProductDetailsAffiliatePage />} />
         <Route path="/product-details-default" element={<ProductDetailsDefaultPage />} />
