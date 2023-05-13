@@ -6,9 +6,9 @@ import Home1 from "../../Components/Home/home1";
 export default function home() {
   return( <>
   <Header />
-  <div className="p-5">
+  {/* <div className="p-5"> */}
     <Home1/>
-  </div>
+  {/* </div> */}
   <Footer />
   </>
   )

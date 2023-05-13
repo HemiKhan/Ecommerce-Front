@@ -2,20 +2,20 @@ import React from 'react'
 
 export default function home1() {
   return (
-    <div>
-         {/<!-- Start Hero Slider Section-->/}
+   <>
+       {/*<!-- Start Hero Slider Section-->*/}
     <div className="hero-slider-section">
-        {/<!-- Slider main container -->/}
+        {/*<!-- Slider main container -->*/}
         <div className="hero-slider-active swiper-container">
-            {/<!-- Additional required wrapper -->/}
+            {/*<!-- Additional required wrapper -->*/}
             <div className="swiper-wrapper">
-                {/<!-- Start Hero Single Slider Item -->/}
+                {/*<!-- Start Hero Single Slider Item -->*/}
                 <div className="hero-single-slider-item swiper-slide">
-                    {/<!-- Hero Slider Image -->/}
+                    {/*<!-- Hero Slider Image -->*/}
                     <div className="hero-slider-bg">
                         <img src="assets/images/hero-slider/home-1/hero-slider-1.jpg" alt=""/>
                     </div>
-                    {/<!-- Hero Slider Content -->/}
+                    {/*<!-- Hero Slider Content -->*/}
                     <div className="hero-slider-wrapper">
                         <div className="container">
                             <div className="row">
@@ -30,14 +30,14 @@ export default function home1() {
                             </div>
                         </div>
                     </div>
-                </div> {/<!-- End Hero Single Slider Item -->/}
-                {/<!-- Start Hero Single Slider Item -->/}
+                </div> {/*<!-- End Hero Single Slider Item -->*/}
+                {/*<!-- Start Hero Single Slider Item -->*/}
                 <div className="hero-single-slider-item swiper-slide">
-                    {/<!-- Hero Slider Image -->/}
+                    {/*<!-- Hero Slider Image -->*/}
                     <div className="hero-slider-bg">
                         <img src="assets/images/hero-slider/home-1/hero-slider-2.jpg" alt=""/>
                     </div>
-                    {/<!-- Hero Slider Content -->/}
+                    {/*<!-- Hero Slider Content -->*/}
                     <div className="hero-slider-wrapper">
                         <div className="container">
                             <div className="row">
@@ -52,25 +52,25 @@ export default function home1() {
                             </div>
                         </div>
                     </div>
-                </div> {/<!-- End Hero Single Slider Item -->/}
+                </div> {/*<!-- End Hero Single Slider Item -->*/}
             </div>
 
-            {/<!-- If we need pagination -->/}
+            {/*<!-- If we need pagination -->*/}
             <div className="swiper-pagination active-color-golden"></div>
 
-            {/<!-- If we need navigation buttons -->/}
+            {/*<!-- If we need navigation buttons -->*/}
             <div className="swiper-button-prev d-none d-lg-block"></div>
             <div className="swiper-button-next d-none d-lg-block"></div>
         </div>
     </div>
-    {/<!-- End Hero Slider Section-->/}
+    {/*<!-- End Hero Slider Section-->*/}
 
-    {/<!-- Start Service Section -->/}
+    {/*<!-- Start Service Section -->*/}
     <div className="service-promo-section section-top-gap-100">
         <div className="service-wrapper">
             <div className="container">
                 <div className="row">
-                    {/<!-- Start Service Promo Single Item -->/}
+                    {/*<!-- Start Service Promo Single Item -->*/}
                     <div className="col-lg-3 col-sm-6 col-12">
                         <div className="service-promo-single-item" data-aos="fade-up" data-aos-delay="0">
                             <div className="image">
@@ -82,8 +82,8 @@ export default function home1() {
                             </div>
                         </div>
                     </div>
-                    {/<!-- End Service Promo Single Item -->/}
-                    {/<!-- Start Service Promo Single Item -->/}
+                    {/*<!-- End Service Promo Single Item -->*/}
+                    {/*<!-- Start Service Promo Single Item -->*/}
                     <div className="col-lg-3 col-sm-6 col-12">
                         <div className="service-promo-single-item" data-aos="fade-up" data-aos-delay="200">
                             <div className="image">
@@ -95,8 +95,8 @@ export default function home1() {
                             </div>
                         </div>
                     </div>
-                    {/<!-- End Service Promo Single Item -->/}
-                    {/<!-- Start Service Promo Single Item -->/}
+                    {/*<!-- End Service Promo Single Item -->*/}
+                    {/*<!-- Start Service Promo Single Item -->*/}
                     <div className="col-lg-3 col-sm-6 col-12">
                         <div className="service-promo-single-item" data-aos="fade-up" data-aos-delay="400">
                             <div className="image">
@@ -108,8 +108,8 @@ export default function home1() {
                             </div>
                         </div>
                     </div>
-                    {/<!-- End Service Promo Single Item -->/}
-                    {/<!-- Start Service Promo Single Item -->/}
+                    {/*<!-- End Service Promo Single Item -->*/}
+                    {/*<!-- Start Service Promo Single Item -->*/}
                     <div className="col-lg-3 col-sm-6 col-12">
                         <div className="service-promo-single-item" data-aos="fade-up" data-aos-delay="600">
                             <div className="image">
@@ -121,21 +121,21 @@ export default function home1() {
                             </div>
                         </div>
                     </div>
-                    {/<!-- End Service Promo Single Item -->/}
+                    {/*<!-- End Service Promo Single Item -->*/}
                 </div>
             </div>
         </div>
     </div>
-    {/<!-- End Service Section -->/}
+    {/*<!-- End Service Section -->*/}
 
-    {/<!-- Start Banner Section -->/}
+    {/*<!-- Start Banner Section -->*/}
     <div className="banner-section section-top-gap-100 section-fluid">
         <div className="banner-wrapper">
             <div className="container-fluid">
                 <div className="row mb-n6">
 
                     <div className="col-lg-6 col-12 mb-6">
-                        {/<!-- Start Banner Single Item -->/}
+                        {/*<!-- Start Banner Single Item -->*/}
                         <div className="banner-single-item banner-style-1 banner-animation img-responsive"
                             data-aos="fade-up" data-aos-delay="0">
                             <div className="image">
@@ -151,12 +151,12 @@ export default function home1() {
                                             className="ion-ios-arrow-thin-right"></i></span></a>
                             </div>
                         </div>
-                        {/<!-- End Banner Single Item -->/}
+                        {/*<!-- End Banner Single Item -->*/}
                     </div>
 
                     <div className="col-lg-6 col-12 mb-6">
                         <div className="row mb-n6">
-                            {/<!-- Start Banner Single Item -->/}
+                            {/*<!-- Start Banner Single Item -->*/}
                             <div className="col-lg-6 col-sm-6 mb-6">
                                 <div className="banner-single-item banner-style-2 banner-animation img-responsive"
                                     data-aos="fade-up" data-aos-delay="0">
@@ -171,8 +171,8 @@ export default function home1() {
                                     </div>
                                 </div>
                             </div>
-                            {/<!-- End Banner Single Item -->/}
-                            {/<!-- Start Banner Single Item -->/}
+                            {/*<!-- End Banner Single Item -->*/}
+                            {/*<!-- Start Banner Single Item -->*/}
                             <div className="col-lg-6 col-sm-6 mb-6">
                                 <div className="banner-single-item banner-style-2 banner-animation img-responsive"
                                     data-aos="fade-up" data-aos-delay="200">
@@ -187,8 +187,8 @@ export default function home1() {
                                     </div>
                                 </div>
                             </div>
-                            {/<!-- End Banner Single Item -->/}
-                            {/<!-- Start Banner Single Item -->/}
+                            {/*<!-- End Banner Single Item -->*/}
+                            {/*<!-- Start Banner Single Item -->*/}
                             <div className="col-lg-6 col-sm-6 mb-6">
                                 <div className="banner-single-item banner-style-2 banner-animation img-responsive"
                                     data-aos="fade-up" data-aos-delay="0">
@@ -203,8 +203,8 @@ export default function home1() {
                                     </div>
                                 </div>
                             </div>
-                            {/<!-- End Banner Single Item -->/}
-                            {/<!-- Start Banner Single Item -->/}
+                            {/*<!-- End Banner Single Item -->*/}
+                            {/*<!-- Start Banner Single Item -->*/}
                             <div className="col-lg-6 col-sm-6 mb-6">
                                 <div className="banner-single-item banner-style-2 banner-animation img-responsive"
                                     data-aos="fade-up" data-aos-delay="200">
@@ -218,7 +218,7 @@ export default function home1() {
                                     </div>
                                 </div>
                             </div>
-                            {/<!-- End Banner Single Item -->/}
+                            {/*<!-- End Banner Single Item -->*/}
                         </div>
                     </div>
                 </div>
@@ -226,11 +226,11 @@ export default function home1() {
             </div>
         </div>
     </div>
-    {/<!-- End Banner Section -->/}
+    {/*<!-- End Banner Section -->*/}
 
-    {/<!-- Start Product Default Slider Section -->/}
+    {/*<!-- Start Product Default Slider Section -->*/}
     <div className="product-default-slider-section section-top-gap-100 section-fluid">
-        {/<!-- Start Section Content Text Area -->/}
+        {/*<!-- Start Section Content Text Area -->*/}
         <div className="section-title-wrapper" data-aos="fade-up" data-aos-delay="0">
             <div className="container">
                 <div className="row">
@@ -245,17 +245,17 @@ export default function home1() {
                 </div>
             </div>
         </div>
-        {/<!-- Start Section Content Text Area -->/}
+        {/*<!-- Start Section Content Text Area -->*/}
         <div className="product-wrapper" data-aos="fade-up" data-aos-delay="200">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="product-slider-default-2rows default-slider-nav-arrow">
-                            {/<!-- Slider main container -->/}
+                            {/*<!-- Slider main container -->*/}
                             <div className="swiper-container product-default-slider-4grid-2row">
-                                {/<!-- Additional required wrapper -->/}
+                                {/*<!-- Additional required wrapper -->*/}
                                 <div className="swiper-wrapper">
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -297,8 +297,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -340,8 +340,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -383,8 +383,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -423,8 +423,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -463,8 +463,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -503,8 +503,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -543,8 +543,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -583,8 +583,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -623,8 +623,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -666,8 +666,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -706,8 +706,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -746,10 +746,10 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
                                 </div>
                             </div>
-                            {/<!-- If we need navigation buttons -->/}
+                            {/*<!-- If we need navigation buttons -->*/}
                             <div className="swiper-button-prev"></div>
                             <div className="swiper-button-next"></div>
                         </div>
@@ -758,14 +758,14 @@ export default function home1() {
             </div>
         </div>
     </div>
-    {/<!-- End Product Default Slider Section -->/}
+    {/*<!-- End Product Default Slider Section -->*/}
 
-    {/<!-- Start Banner Section -->/}
+    {/*<!-- Start Banner Section -->*/}
     <div className="banner-section section-top-gap-100">
         <div className="container">
             <div className="row">
                 <div className="col-xl-8 offset-xl-2">
-                    {/<!-- Start Banner Single Item -->/}
+                    {/*<!-- Start Banner Single Item -->*/}
                     <div className="banner-single-item banner-style-3 banner-animation img-responsive" data-aos="fade-up"
                         data-aos-delay="0">
                         <div className="image">
@@ -781,16 +781,16 @@ export default function home1() {
                                         className="ion-ios-arrow-thin-right"></i></span></a>
                         </div>
                     </div>
-                    {/<!-- End Banner Single Item -->/}
+                    {/*<!-- End Banner Single Item -->*/}
                 </div>
             </div>
         </div>
     </div>
-    {/<!-- End Banner Section -->/}
+    {/*<!-- End Banner Section -->*/}
 
-    {/<!-- Start Product Default Slider Section -->/}
+    {/*<!-- Start Product Default Slider Section -->*/}
     <div className="product-default-slider-section section-top-gap-100 section-fluid section-inner-bg">
-        {/<!-- Start Section Content Text Area -->/}
+        {/*<!-- Start Section Content Text Area -->*/}
         <div className="section-title-wrapper" data-aos="fade-up" data-aos-delay="0">
             <div className="container">
                 <div className="row">
@@ -805,18 +805,18 @@ export default function home1() {
                 </div>
             </div>
         </div>
-        {/<!-- Start Section Content Text Area -->/}
+        {/*<!-- Start Section Content Text Area -->*/}
         <div className="product-wrapper" data-aos="fade-up" data-aos-delay="0">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="product-slider-default-1row default-slider-nav-arrow">
-                            {/<!-- Slider main container -->/}
+                            {/*<!-- Slider main container -->*/}
                             <div className="swiper-container product-default-slider-4grid-1row">
-                                {/<!-- Additional required wrapper -->/}
+                                {/*<!-- Additional required wrapper -->*/}
                                 <div className="swiper-wrapper">
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -855,8 +855,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -895,8 +895,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -935,8 +935,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -975,8 +975,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -1018,8 +1018,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -1061,8 +1061,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/<!-- End Product Default Single Item -->/}
-                                    {/<!-- Start Product Default Single Item -->/}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -1104,8 +1104,8 @@ export default function home1() {
 
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
-                                    {/* {/{/<!-- Start Product Default Single Item -->/}/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="product-default-single-item product-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="product-details-default.html" className="image-link">
@@ -1143,11 +1143,10 @@ export default function home1() {
                                             </div>
 
                                         </div>
-                                    </div> 
-                                    {/* {/{/<!-- End Product Default Single Item -->/}/} */}
+                                    </div> {/*<!-- End Product Default Single Item -->*/}
                                 </div>
                             </div>
-                            {/* {/{/<!-- If we need navigation buttons -->/}/} */}
+                            {/*<!-- If we need navigation buttons -->*/}
                             <div className="swiper-button-prev"></div>
                             <div className="swiper-button-next"></div>
                         </div>
@@ -1156,12 +1155,12 @@ export default function home1() {
             </div>
         </div>
     </div>
-    {/* {/{/<!-- End Product Default Slider Section -->/}/} */}
+    {/*<!-- End Product Default Slider Section -->*/}
 
-    {/* {/{/<!-- Start Banner Section -->/}/} */}
+    {/*<!-- Start Banner Section -->*/}
     <div className="banner-section">
         <div className="banner-wrapper clearfix">
-            {/* {/{/<!-- Start Banner Single Item -->/}/} */}
+            {/*<!-- Start Banner Single Item -->*/}
             <div className="banner-single-item banner-style-4 banner-animation banner-color--golden float-left img-responsive"
                 data-aos="fade-up" data-aos-delay="0">
                 <div className="image">
@@ -1175,8 +1174,8 @@ export default function home1() {
                     <span className="round-btn"><i className="ion-ios-arrow-thin-right"></i></span>
                 </a>
             </div>
-            {/* {/{/<!-- End Banner Single Item -->/}/} */}
-            {/* {/<!-- Start Banner Single Item -->/} */}
+            {/*<!-- End Banner Single Item -->*/}
+            {/*<!-- Start Banner Single Item -->*/}
             <div className="banner-single-item banner-style-4 banner-animation banner-color--golden float-left img-responsive"
                 data-aos="fade-up" data-aos-delay="200">
                 <div className="image">
@@ -1190,8 +1189,8 @@ export default function home1() {
                     <span className="round-btn"><i className="ion-ios-arrow-thin-right"></i></span>
                 </a>
             </div>
-            {/* {/<!-- End Banner Single Item -->/} */}
-            {/* {/<!-- Start Banner Single Item -->/} */}
+            {/*<!-- End Banner Single Item -->*/}
+            {/*<!-- Start Banner Single Item -->*/}
             <div className="banner-single-item banner-style-4 banner-animation banner-color--golden float-left img-responsive"
                 data-aos="fade-up" data-aos-delay="400">
                 <div className="image">
@@ -1205,8 +1204,8 @@ export default function home1() {
                     <span className="round-btn"><i className="ion-ios-arrow-thin-right"></i></span>
                 </a>
             </div>
-            {/* {/<!-- End Banner Single Item -->/} */}
-            {/* {/<!-- Start Banner Single Item -->/} */}
+            {/*<!-- End Banner Single Item -->*/}
+            {/*<!-- Start Banner Single Item -->*/}
             <div className="banner-single-item banner-style-4 banner-animation banner-color--golden float-left img-responsive"
                 data-aos="fade-up" data-aos-delay="600">
                 <div className="image">
@@ -1220,14 +1219,14 @@ export default function home1() {
                     <span className="round-btn"><i className="ion-ios-arrow-thin-right"></i></span>
                 </a>
             </div>
-            {/* {/<!-- End Banner Single Item -->/} */}
+            {/*<!-- End Banner Single Item -->*/}
         </div>
     </div>
-    {/* {/<!-- End Banner Section -->/} */}
+    {/*<!-- End Banner Section -->*/}
 
-    {/* {/<!-- Start Blog Slider Section -->/} */}
+    {/*<!-- Start Blog Slider Section -->*/}
     <div className="blog-default-slider-section section-top-gap-100 section-fluid">
-        {/* {/<!-- Start Section Content Text Area -->/} */}
+        {/*<!-- Start Section Content Text Area -->*/}
         <div className="section-title-wrapper" data-aos="fade-up" data-aos-delay="0">
             <div className="container">
                 <div className="row">
@@ -1242,17 +1241,17 @@ export default function home1() {
                 </div>
             </div>
         </div>
-        {/* {/<!-- Start Section Content Text Area -->/} */}
+        {/*<!-- Start Section Content Text Area -->*/}
         <div className="blog-wrapper" data-aos="fade-up" data-aos-delay="200">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="blog-default-slider default-slider-nav-arrow">
-                            {/* {/<!-- Slider main container -->/} */}
+                            {/*<!-- Slider main container -->*/}
                             <div className="swiper-container blog-slider">
-                                {/* {/<!-- Additional required wrapper -->/} */}
+                                {/*<!-- Additional required wrapper -->*/}
                                 <div className="swiper-wrapper">
-                                    {/* {/<!-- Start Product Default Single Item -->/} */}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="blog-default-single-item blog-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="blog-single-sidebar-left.html" className="image-link">
@@ -1275,8 +1274,8 @@ export default function home1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
-                                    {/* {/<!-- Start Product Default Single Item -->/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="blog-default-single-item blog-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="blog-single-sidebar-left.html" className="image-link">
@@ -1298,8 +1297,8 @@ export default function home1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
-                                    {/* {/<!-- Start Product Default Single Item -->/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="blog-default-single-item blog-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="blog-single-sidebar-left.html" className="image-link">
@@ -1322,8 +1321,8 @@ export default function home1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
-                                    {/* {/<!-- Start Product Default Single Item -->/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="blog-default-single-item blog-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="blog-single-sidebar-left.html" className="image-link">
@@ -1346,8 +1345,8 @@ export default function home1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
-                                    {/* {/<!-- Start Product Default Single Item -->/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="blog-default-single-item blog-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="blog-single-sidebar-left.html" className="image-link">
@@ -1370,8 +1369,8 @@ export default function home1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
-                                    {/* {/<!-- Start Product Default Single Item -->/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
+                                    {/*<!-- Start Product Default Single Item -->*/}
                                     <div className="blog-default-single-item blog-color--golden swiper-slide">
                                         <div className="image-box">
                                             <a href="blog-single-sidebar-left.html" className="image-link">
@@ -1394,10 +1393,10 @@ export default function home1() {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* {/<!-- End Product Default Single Item -->/} */}
+                                    {/*<!-- End Product Default Single Item -->*/}
                                 </div>
                             </div>
-                            {/* {/<!-- If we need navigation buttons -->/} */}
+                            {/*<!-- If we need navigation buttons -->*/}
                             <div className="swiper-button-prev"></div>
                             <div className="swiper-button-next"></div>
                         </div>
@@ -1406,9 +1405,9 @@ export default function home1() {
             </div>
         </div>
     </div>
-    {/* {/<!-- End Blog Slider Section -->/} */}
+    {/*<!-- End Blog Slider Section -->*/}
 
-    {/* {/<!-- Start Instagramr Section -->/} */}
+    {/*<!-- Start Instagramr Section -->*/}
     <div className="instagram-section section-top-gap-100 section-inner-bg">
         <div className="instagram-wrapper" data-aos="fade-up" data-aos-delay="0">
             <div className="container">
@@ -1416,24 +1415,24 @@ export default function home1() {
                     <div className="col-12">
                         <div className="instagram-box">
                             <div id="instagramFeed" className="instagram-grid clearfix">
-                                {/* <a href="https://www.instagram.com/p/CCFOZKDDS6S/" target="_blank"
+                                <a href="https://www.instagram.com/p/CCFOZKDDS6S/" rel="noreferrer" target="_blank"
                                     className="instagram-image-link float-left banner-animation"><img
                                         src="assets/images/instagram/instagram-1.jpg" alt=""/></a>
-                                <a href="https://www.instagram.com/p/CCFOYDNjWF5/" target="_blank"
+                                <a href="https://www.instagram.com/p/CCFOYDNjWF5/" rel="noreferrer" target="_blank"
                                     className="instagram-image-link float-left banner-animation"><img
                                         src="assets/images/instagram/instagram-2.jpg" alt=""/></a>
-                                <a href="https://www.instagram.com/p/CCFOXH6D-zQ/" target="_blank"
+                                <a href="https://www.instagram.com/p/CCFOXH6D-zQ/" rel="noreferrer"  target="_blank"
                                     className="instagram-image-link float-left banner-animation"><img
                                         src="assets/images/instagram/instagram-3.jpg" alt=""/></a>
-                                <a href="https://www.instagram.com/p/CCFOVcrDDOo/" target="_blank"
+                                <a href="https://www.instagram.com/p/CCFOVcrDDOo/" rel="noreferrer" target="_blank"
                                     className="instagram-image-link float-left banner-animation"><img
                                         src="assets/images/instagram/instagram-4.jpg" alt=""/></a>
-                                <a href="https://www.instagram.com/p/CCFOUajjABP/" target="_blank"
+                                <a href="https://www.instagram.com/p/CCFOUajjABP/" rel="noreferrer" target="_blank"
                                     className="instagram-image-link float-left banner-animation"><img
                                         src="assets/images/instagram/instagram-5.jpg" alt=""/></a>
-                                <a href="https://www.instagram.com/p/CCFOS2MDmjj/" target="_blank"
+                                <a href="https://www.instagram.com/p/CCFOS2MDmjj/" rel="noreferrer" target="_blank"
                                     className="instagram-image-link float-left banner-animation"><img
-                                        src="assets/images/instagram/instagram-6.jpg" alt=""/></a> */}
+                                        src="assets/images/instagram/instagram-6.jpg" alt=""/></a>
                             </div>
                             <div className="instagram-link">
                                 <h5><a href="https://www.instagram.com/myfurniturecom/" target="_blank"
@@ -1445,7 +1444,8 @@ export default function home1() {
             </div>
         </div>
     </div>
-    {/* {/<!-- End Instagramr Section -->/} */}
-    </div>
+    {/*<!-- End Instagramr Section -->*/}
+    
+   </>
   )
 }
