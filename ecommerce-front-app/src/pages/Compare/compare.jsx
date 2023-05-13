@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import Compare from "../../components/Compare/compare";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import Compare from "../../Components/Compare/compare";
 
 export default function compare() {
   return (

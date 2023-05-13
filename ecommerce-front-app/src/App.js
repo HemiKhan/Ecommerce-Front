@@ -1,34 +1,34 @@
 import React from 'react'; 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/home";
-import Error404 from "./pages/Error/Error404";
-import Aboutus from "./pages/AboutUs/aboutus";
-import Cart from "./pages/Cart/cart";
-import Emptycart from "./pages/Cart/emptycart";
-import Checkout from "./pages/Checkout/checkout";
-import Compare from "./pages/Compare/compare";
-import Contactus from "./pages/Contactus/contactus";
-import Faq from "./pages/Faq/faq";
-import Login from "./pages/Login/login";
-import Myaccount from "./pages/Myaccount/myaccount";
-import Privacypolicy from "./pages/Privacypolicy/privacypolicy";
-import Wishlist from "./pages/Wishlist/wishlist";
-import ProductDetailsAffiliatePage from "./pages/ProductDetails/productDetailsAffiliatePage";
-import ProductDetailsDefaultPage from "./pages/ProductDetails/productDetailsDefaultPage";
-import ProductDetailsGalleryLeftPage from "./pages/ProductDetails/productDetailsGalleryLeftPage";
-import ProductDetailsGalleryRightPage from "./pages/ProductDetails/productDetailsGalleryRightPage";
-import ProductDetailsGroupPage from "./pages/ProductDetails/productDetailsGroupPage";
-import ProductDetailsSingleSlidePage from "./pages/ProductDetails/productDetailsSingleSlidePage";
-import ProductDetailsStickyLeftPage from "./pages/ProductDetails/productDetailsStickyLeftPage";
-import ProductDetailsStickyRightPage from "./pages/ProductDetails/productDetailsStickyRightPage";
-import ProductDetailsTabLeftPage from "./pages/ProductDetails/productDetailsTabLeftPage";
-import ProductDetailsTabRightPage from "./pages/ProductDetails/productDetailsTabRightPage";
-import ProductDetailsVariablePage from "./pages/ProductDetails/productDetailsVariablePage";
-import ShopFullWidthPage from "./pages/Shop/shopFullWidthPage";
-import ShopGridSidebarLeftPage from "./pages/Shop/shopGridSidebarLeftPage";
-import ShopGridSidebarRightPage from "./pages/Shop/shopGridSidebarRightPage";
-import ShopListSidebarLeftPage from "./pages/Shop/shopListSidebarLeftPage";
-import ShopListSidebarRightPage from "./pages/Shop/shopListSidebarRightPage";
+import Home from "./Pages/Home/home";
+import Error404 from "./Pages/Error/Error404";
+import Aboutus from "./Pages/AboutUs/aboutus";
+import Cart from "./Pages/Cart/cart";
+import Emptycart from "./Pages/Cart/emptycart";
+import Checkout from "./Pages/Checkout/checkout";
+import Compare from "./Pages/Compare/compare";
+import Contactus from "./Pages/Contactus/contactus";
+import Faq from "./Pages/Faq/faq";
+import Login from "./Pages/Login/login";
+import Myaccount from "./Pages/Myaccount/myaccount";
+import Privacypolicy from "./Pages/Privacypolicy/privacypolicy";
+import Wishlist from "./Pages/Wishlist/wishlist";
+import ProductDetailsAffiliatePage from "./Pages/ProductDetails/productDetailsAffiliatePage";
+import ProductDetailsDefaultPage from "./Pages/ProductDetails/productDetailsDefaultPage";
+import ProductDetailsGalleryLeftPage from "./Pages/ProductDetails/productDetailsGalleryLeftPage";
+import ProductDetailsGalleryRightPage from "./Pages/ProductDetails/productDetailsGalleryRightPage";
+import ProductDetailsGroupPage from "./Pages/ProductDetails/productDetailsGroupPage";
+import ProductDetailsSingleSlidePage from "./Pages/ProductDetails/productDetailsSingleSlidePage";
+import ProductDetailsStickyLeftPage from "./Pages/ProductDetails/productDetailsStickyLeftPage";
+import ProductDetailsStickyRightPage from "./Pages/ProductDetails/productDetailsStickyRightPage";
+import ProductDetailsTabLeftPage from "./Pages/ProductDetails/productDetailsTabLeftPage";
+import ProductDetailsTabRightPage from "./Pages/ProductDetails/productDetailsTabRightPage";
+import ProductDetailsVariablePage from "./Pages/ProductDetails/productDetailsVariablePage";
+import ShopFullWidthPage from "./Pages/Shop/shopFullWidthPage";
+import ShopGridSidebarLeftPage from "./Pages/Shop/shopGridSidebarLeftPage";
+import ShopGridSidebarRightPage from "./Pages/Shop/shopGridSidebarRightPage";
+import ShopListSidebarLeftPage from "./Pages/Shop/shopListSidebarLeftPage";
+import ShopListSidebarRightPage from "./Pages/Shop/shopListSidebarRightPage";
 
 
 function App() {
@@ -38,16 +38,16 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/404" element={<Error404 />} />
         <Route path="/Aboutus" element={<Aboutus />} />
-        <Route path="/Cart" element={<Cart />} />
-        <Route path="/Emptycart" element={<Emptycart />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/empty-cart" element={<Emptycart />} />
         <Route path="/Checkout" element={<Checkout />} />
         <Route path="/Compare" element={<Compare />} />
         <Route path="/Contactus" element={<Contactus />} />
         <Route path="/Faq" element={<Faq />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/Myaccount" element={<Myaccount />} />
+        <Route path="/my-account" element={<Myaccount />} />
         <Route path="/Privacy-policy" element={<Privacypolicy />} />
-        <Route path="/Wishlist" element={<Wishlist />} />
+        <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/product-details-Affiliate" element={<ProductDetailsAffiliatePage />} />
         <Route path="/product-details-default" element={<ProductDetailsDefaultPage />} />
         <Route path="/product-details-gallery-left" element={<ProductDetailsGalleryLeftPage />} />

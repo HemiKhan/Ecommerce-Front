@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function header() {
 
@@ -14,7 +15,9 @@ export default function header() {
                             {/* Start Header Logo  */}
                             <div className="header-logo">
                                 <div className="logo">
-                                    <a href="index.html"><img src="assets/images/logo/logo_black.png" alt=""/></a>
+                                <Link to='/'>
+                                    <img src="assets/images/logo/logo_black.png" alt=""/>
+                                </Link>
                                 </div>
                             </div>
                              {/* End Header Logo */}
@@ -24,48 +27,48 @@ export default function header() {
                                 <nav>
                                     <ul>
                                         <li className="has-dropdown">
-                                            <a className="active main-menu-link" href="index.html">Home <i
-                                                    className="fa fa-angle-down"></i></a>
+                                            <Link className="active main-menu-link" to="/">Home <i
+                                                    className="fa fa-angle-down"></i></Link>
                                             {/* <!-- Sub Menu --> */}
                                             <ul className="sub-menu">
-                                                <li><a href="index.html">Home 1</a></li>
-                                                <li><a href="index-2.html">Home 2</a></li>
-                                                <li><a href="index-3.html">Home 3</a></li>
-                                                <li><a href="index-4.html">Home 4</a></li>
+                                                <li><Link to="/">Home 1</Link></li>
+                                                <li><Link to="/">Home 2</Link></li>
+                                                <li><Link to="/">Home 3</Link></li>
+                                                <li><Link to="/">Home 4</Link></li>
                                             </ul>
                                         </li>
                                         <li className="has-dropdown has-megaitem">
-                                            <a href="product-details-default.html">Shop <i
-                                                    className="fa fa-angle-down"></i></a>
+                                            <Link to="/product-details-default">Shop <i
+                                                    className="fa fa-angle-down"></i></Link>
                                             {/* <!-- Mega Menu --> */}
                                             <div className="mega-menu">
                                                 <ul className="mega-menu-inner">
                                                     {/* <!-- Mega Menu Sub Link --> */}
                                                     <li className="mega-menu-item">
-                                                        <a href="/" className="mega-menu-item-title">Shop Layouts</a>
+                                                        <Link to="/" className="mega-menu-item-title">Shop Layouts</Link>
                                                         <ul className="mega-menu-sub">
-                                                            <li><a href="shop-grid-sidebar-left.html">Grid Left
-                                                                    Sidebar</a></li>
-                                                            <li><a href="shop-grid-sidebar-right.html">Grid Right
-                                                                    Sidebar</a></li>
-                                                            <li><a href="shop-full-width.html">Full Width</a></li>
-                                                            <li><a href="shop-list-sidebar-left.html">List Left
-                                                                    Sidebar</a></li>
-                                                            <li><a href="shop-list-sidebar-right.html">List Right
-                                                                    Sidebar</a></li>
+                                                            <li><Link to="/shop-grid-sidebar-left">Grid Left
+                                                                    Sidebar</Link></li>
+                                                            <li><Link to="/shop-grid-sidebar-right">Grid Right
+                                                                    Sidebar</Link></li>
+                                                            <li><Link to="/shop-full-width">Full Width</Link></li>
+                                                            <li><Link to="/shop-list-sidebar-left">List Left
+                                                                    Sidebar</Link></li>
+                                                            <li><Link to="/shop-list-sidebar-right">List Right
+                                                                    Sidebar</Link></li>
                                                         </ul>
                                                     </li>
                                                     {/* <!-- Mega Menu Sub Link --> */}
                                                     <li className="mega-menu-item">
-                                                        <a href="/" className="mega-menu-item-title">Other Pages</a>
+                                                        <Link to="/" className="mega-menu-item-title">Other Pages</Link>
                                                         <ul className="mega-menu-sub">
-                                                            <li><a href="cart.html">Cart</a></li>
-                                                            <li><a href="empty-cart.html">Empty Cart</a></li>
-                                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                                            <li><a href="compare.html">Compare</a></li>
-                                                            <li><a href="checkout.html">Checkout</a></li>
-                                                            <li><a href="login.html">Login</a></li>
-                                                            <li><a href="my-account.html">My Account</a></li>
+                                                            <li><Link to="/cart">Cart</Link></li>
+                                                            <li><Link to="/empty-cart">Empty Cart</Link></li>
+                                                            <li><Link to="/wishlist">Wishlist</Link></li>
+                                                            <li><Link to="/compare">Compare</Link></li>
+                                                            <li><Link to="/checkout">Checkout</Link></li>
+                                                            <li><Link to="/login">Login</Link></li>
+                                                            <li><Link to="/my-account">My Account</Link></li>
                                                         </ul>
                                                     </li>
                                                     {/* <!-- Mega Menu Sub Link --> */}

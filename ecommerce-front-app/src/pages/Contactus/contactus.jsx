@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import Contactus from "../../components/Contactus/contactus";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import Contactus from "../../Components/Contactus/contactus";
 
 export default function contactus() {
   return (

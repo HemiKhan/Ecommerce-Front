@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import ProductDetailsStickyLeft from "../../components/ProductDetails/productDetailsStickyLeft";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import ProductDetailsStickyLeft from "../../Components/ProductDetails/productDetailsStickyLeft";
 
 export default function productDetailsStickyLeftPage() {
   return (

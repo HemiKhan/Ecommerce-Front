@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import ProductDetailsAffiliate from "../../components/ProductDetails/productDetailsAffiliate";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import ProductDetailsAffiliate from "../../Components/ProductDetails/productDetailsAffiliate";
 
 export default function productDetailsAffiliatePage() {
   return (

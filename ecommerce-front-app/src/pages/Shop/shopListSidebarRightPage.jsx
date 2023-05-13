@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import ShopListSidebarRight from "../../components/Shop/shopListSidebarRight";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import ShopListSidebarRight from "../../Components/Shop/shopListSidebarRight";
 
 export default function shopListSidebarRightPage() {
   return (

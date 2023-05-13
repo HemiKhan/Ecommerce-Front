@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import ShopGridSidebarLeft from "../../components/Shop/shopGridSidebarLeft";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import ShopGridSidebarLeft from "../../Components/Shop/shopGridSidebarLeft";
 
 export default function shopGridSidebarLeftPage() {
   return (

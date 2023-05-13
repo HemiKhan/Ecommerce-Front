@@ -32,7 +32,7 @@ export default function contactus() {
                 <div className="col-12">
                     <div className="mapouter">
                         <div className="gmap_canvas">
-                            <iframe id="gmap_canvas"
+                            <iframe id="gmap_canvas" title='kkk'
                                 src="https://maps.google.com/maps?q=121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
                         </div>
                     </div>

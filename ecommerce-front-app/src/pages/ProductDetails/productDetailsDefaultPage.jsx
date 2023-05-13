@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import ProductDetailsDefault from "../../components/ProductDetails/productDetailsDefault";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import ProductDetailsDefault from "../../Components/ProductDetails/productDetailsDefault";
 
 export default function productDetailsDefaultPage() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import Aboutus from "../../components/AboutUs/aboutus";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import Aboutus from "../../Components/AboutUs/aboutus";
 
 export default function aboutus() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "../../components/Header/header";
-import Footer from "../../components/Footer/footer";
-import ProductDetailsGalleryRight from "../../components/ProductDetails/productDetailsGalleryRight";
+import Header from "../../Components/Header/header";
+import Footer from "../../Components/Footer/footer";
+import ProductDetailsGalleryRight from "../../Components/ProductDetails/productDetailsGalleryRight";
 
 export default function productDetailsGalleryRightPage() {
   return (
